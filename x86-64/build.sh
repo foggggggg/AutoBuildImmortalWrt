@@ -33,9 +33,11 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
-PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES luci-app-syncdial_2.0_all
+PACKAGES="$PACKAGES luci-app-mwan3_git-24.272.29284-d386ad6_all
+PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn_git-24.364.71483-75d2b84_all
+PACKAGES="$PACKAGES luci-i18n-syncthing-zh-cn_git-24.272.29284-d386ad6_all
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
